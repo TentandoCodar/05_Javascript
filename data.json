@@ -1,0 +1,22 @@
+
+
+	
+		{
+			"dataAtualizacao": "13/11/2019",
+			"comodo": "Cozinha",
+			"equipamento": {
+				"id": 1,
+				"nome": "Lampada Central",
+				"status": "on"
+			},
+			"sensor" : {
+				"tipo": "temperatura",
+				"escala": "Celcius",
+				"status": "200"
+			},
+		},
+		
+	
+
+
+

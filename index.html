@@ -1,0 +1,129 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SMART HOME - SENAI</title>
+<link href="css/smarthome.css" rel="stylesheet">
+</head>
+
+<body>
+	<div id="resolucao">
+		<h1><img src="imagens/logo_topo.jpg" title="SmartHome - Domótica SENAI"></h1>
+		<div class="comodo" id="Cozinha">
+			<div class="tituloComodo">
+				<span class="nameComodo">Cozinha</span>
+				<span class="fecharComodo">X</span>
+			</div>
+			<div class="equipamentos">
+				<div class="equipamento on light" id="LampadaCentral">
+					<span class="nameEquipamento">Lâmpada Central</span>
+					<span class="statusEquipamento">on</span>
+				</div>
+				<div class="equipamento off" id="FornoDeMicroondas">
+					<span class="nameEquipamento">Forno de Microondas</span>
+					<span class="statusEquipamento">off</span>				
+				</div>
+				<div class="equipamento locked" id="PortaExterna">
+					<span class="nameEquipamento">Porta Externa</span>
+					<span class="statusEquipamento">locked</span>				
+				</div>
+				<div class="equipamento unlocked" id="PortaInterna">
+					<span class="nameEquipamento">Porta Interna</span>
+					<span class="statusEquipamento">unlocked</span>				
+				</div>
+				<div class="sensor">
+					<span class="status">26</span>
+					<span class="scale">celsius
+				</div>	
+			</div>
+		</div>
+		<div class="comodo" id="Sala Estar">
+			<div class="tituloComodo">
+				<span class="nameComodo">Sala Estar</span>
+				<span class="fecharComodo">X</span>
+			</div>
+			<div class="equipamentos">
+				<div class="equipamento on light" id="Lampada1">
+					<span class="nameEquipamento">Lâmpada 1</span>
+					<span class="statusEquipamento">on</span>
+				</div>
+				<div class="equipamento off light" id="Lampada2">
+					<span class="nameEquipamento">Lâmpada 2</span>
+					<span class="statusEquipamento">off</span>
+				</div>
+				<div class="equipamento off" id="Persiana">
+					<span class="nameEquipamento">Persiana</span>
+					<span class="statusEquipamento">off</span>				
+				</div>
+				<div class="equipamento on" id="TVLED47">
+					<span class="nameEquipamento">TV LED 47"</span>
+					<span class="statusEquipamento">on</span>				
+				</div>
+				<div class="equipamento off" id="ArCondicionado">
+					<span class="nameEquipamento">Ar Condicionado</span>
+					<span class="statusEquipamento">off</span>				
+				</div>
+				<div class="sensor">
+					<span class="status">26</span>
+					<span class="scale">celsius</spam>
+				</div>	
+			</div>
+			
+		</div>		
+		<div class="comodo" id="Quarto Solteiro">
+			<div class="tituloComodo">
+				<span class="nameComodo">Quarto Solteiro</span>
+				<span class="fecharComodo">X</span>
+			</div>
+			<div class="equipamentos">
+				<div class="equipamento off light" id="Lampada3">
+					<span class="nameEquipamento">Lâmpada</span>
+					<span class="statusEquipamento">off</span>
+				</div>
+				<div class="equipamento off" id="Persiana2">
+					<span class="nameEquipamento">Persiana</span>
+					<span class="statusEquipamento">off</span>
+				</div>
+				<div class="equipamento on" id="ArCondicionado2">
+					<span class="nameEquipamento">Ar Condicionado</span>
+					<span class="statusEquipamento">on</span>				
+				</div>
+				<div class="sensor">
+					<span class="status">21</span>
+					<span class="scale">celsius</span>
+				</div>	
+			</div>
+			
+		</div>
+		<div class="comodo" id="Quarto Casal">
+			<div class="tituloComodo">
+				<span class="nameComodo">Quarto Casal</span>
+				<span class="fecharComodo">X</span>
+			</div>	
+			<div class="equipamentos">
+				<div class="equipamento on light" id="Lampada4">
+					<span class="nameEquipamento">Lâmpada</span>
+					<span class="statusEquipamento">on</span>
+				</div>
+				<div class="equipamento on" id="Persiana3">
+					<span class="nameEquipamento">Persiana</span>
+					<span class="statusEquipamento">on</span>
+				</div>
+				<div class="equipamento on" id="ArCondicionado3">
+					<span class="nameEquipamento">Ar Condicionado</span>
+					<span class="statusEquipamento">on</span>				
+				</div>			
+				<div class="sensor">
+					<span class="status">24</span>
+					<span class="scale">celsius</span>
+				</div>
+			</div>
+			
+		</div>
+		<div id="dataAtualizacao">Atualizado em: <span class="dataAtualizacao">09/07/2016 13:20:22</span>
+	</div>
+
+	<script type="text/javascript" src="./callApi.js"></script>
+</body>
+</html>
+<script language="javascript" src="js/smarthome.js">

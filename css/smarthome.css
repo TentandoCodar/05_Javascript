@@ -1,0 +1,109 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+h1{
+	margin: 0 auto;
+	margin-top: 25px;
+	width: 700px
+	height: 111px;
+}
+#resolucao{
+	height: 1334px;
+	width: 750px;
+	width: 100%;
+	overflow-x: hidden;
+
+}
+.comodo{
+	margin: 0 auto;
+	border: 2px solid #32738f;
+	width: 82%;
+	margin-top: 25px;
+	border-radius: 5px;	
+	min-height: 200px;
+}
+
+.comodo .equipamentos {
+	display: flex;
+	align-items: center;
+}
+
+.comodo .tituloComodo{
+	height: 65px;
+	background-color:#32738f;
+}
+.comodo .tituloComodo .fecharComodo{
+	text-align: center;
+	color: #FFF;
+	font-size: 20px;
+	width: 40px;
+	height: 40px;
+	border: 2px solid #FFF;
+	border-radius: 5px;
+	float: right;
+	margin-right: 25px;
+	margin-top: 10px;
+	line-height: 40px;
+}
+.nameComodo{
+	font-size: 50px;
+	color: #FFF;
+	padding-left: 10px;
+}
+.equipamento, .sensor{
+	width: 100px;
+	height: 100px;
+	border: 2px solid #32738f;
+	border-radius: 5px;	
+	display: inline-block;	
+	margin: 10px;
+	padding: 10px;
+}
+.sensor{
+	border: 2px solid #0487bf;
+	background-color: #0487bf;
+	color: #FFF;
+	text-align: center;
+}
+.sensor .status{
+	font-size: 55px;
+	font-weight: bold;
+	display: block;	
+}
+.sensor .scale, .equipamento .statusEquipamento{
+	font-size: 20px;
+	display: block;	
+}
+ .equipamento .statusEquipamento{
+ 	font-weight: bold;
+	margin-top: 10px;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.on, .locked{
+	background-color: #36eeab;
+}
+.off, .unlocked{
+	background-color: #c3c3c3;
+}
+.equipamento .nameEquipamento{
+	font-size: 20px;
+}
+.nameEquipamento, .statusEquipamento{
+	display: block;
+	text-align: center;
+}
+#dataAtualizacao{
+	margin-top: 25px;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 25pw;
+}
+.dataAtualizacao{
+	font-weight: bold;
+}
+.equipamento .on .light
+	backgroundcolor: FFFF00;
+
